@@ -418,18 +418,46 @@ footer {
  
 
 @media (max-width: 768px) {
-    .container-main-card-apresentacao, .card-sobre-mim, .card-skill {
+    .container-main-card-apresentacao, .card-skill, .card-sobre-mim {
+        width: 400px;
         flex-direction: column;
         padding: 15px;
     }
 
+    .card-sobre-mim img {
+        display: none;
+    }
+
+    .card-sobre-mim-text {
+        order: 2; /* Move o texto para baixo */
+    }
+
+    .card-sobre-mim img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Outros ajustes necessários */
     .container-main-text, .card-sobre-mim-text {
         max-width: 100%;
-        text-align: center;
+        text-align:center;
+
     }
 
     .container-navegacao ul {
         flex-direction: column;
         gap: 15px;
     }
+
+    footer .conteudo{
+        margin-right: 80px;
+
+    }
+
+
+    .curriculo{
+        margin-right: 70px;
+    }
 }
+
+
