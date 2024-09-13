@@ -359,6 +359,8 @@ footer {
 }
 
 
+
+
 /* Estilização do Rodapé */
 .card-contato {
     display: flex;
@@ -371,6 +373,12 @@ footer {
     border-top: 1px solid #da598e; /* Linha superior para separação */
     color: var(--secondary-color);
 
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 150px;
 }
 
 .card-contato h2 {
@@ -401,7 +409,6 @@ footer {
 
 .footer-social-icons {
     margin-top: 20px; /* Espaço acima dos ícones sociais */
-    margin-left: 150px;
 
 }
 
